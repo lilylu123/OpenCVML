@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test1.cpp">
+    <ClCompile Include="src\DeserializationOpenCVTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TestTree.cpp">
+    <ClCompile Include="src\TestTree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="utils.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="DeserializationOpenCVTree.cpp">
+    <ClCompile Include="src\utils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,0 +1,87 @@
+{
+    "opencv_ml_dtree": {
+        "format": 3,
+        "is_classifier": 1,
+        "var_all": 5,
+        "var_count": 4,
+        "ord_var_count": 4,
+        "cat_var_count": 1,
+        "training_params": {
+            "use_surrogates": 0,
+            "max_categories": 4,
+            "regression_accuracy": 0.0,
+            "max_depth": 3,
+            "min_sample_count": 1,
+            "cross_validation_folds": 0
+        },
+        "global_var_idx": 1,
+        "var_idx": [ 0, 1, 2, 3 ],
+        "var_type": [ 0, 0, 0, 0, 1 ],
+        "cat_ofs": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+        "class_labels": [ 0, 1, 2 ],
+        "missing_subst": [ 0.0, 0.0, 0.0, 0.0, 0.0 ],
+        "nodes": [
+            {
+                "depth": 0,
+                "value": 0.0,
+                "norm_class_idx": 0,
+                "splits": [
+                    { "var": 2, "quality": 100.0,
+                        "le": 2.4500000476837158e+00 }
+                ]
+            },
+            {
+                "depth": 1,
+                "value": 0.0,
+                "norm_class_idx": 0
+            },
+            {
+                "depth": 1,
+                "value": 1.0,
+                "norm_class_idx": 1,
+                "splits": [
+                    { "var": 3, "quality": 8.8969406127929688e+01,
+                        "le": 1.7500000000000000e+00 }
+                ]
+            },
+            {
+                "depth": 2,
+                "value": 1.0,
+                "norm_class_idx": 1,
+                "splits": [
+                    { "var": 2, "quality": 4.9375000000000000e+01,
+                        "le": 4.9499998092651367e+00 }
+                ]
+            },
+            {
+                "depth": 3,
+                "value": 1.0,
+                "norm_class_idx": 1
+            },
+            {
+                "depth": 3,
+                "value": 2.0,
+                "norm_class_idx": 2
+            },
+            {
+                "depth": 2,
+                "value": 2.0,
+                "norm_class_idx": 2,
+                "splits": [
+                    { "var": 2, "quality": 4.4666667938232422e+01,
+                        "le": 4.8500003814697266e+00 }
+                ]
+            },
+            {
+                "depth": 3,
+                "value": 2.0,
+                "norm_class_idx": 2
+            },
+            {
+                "depth": 3,
+                "value": 2.0,
+                "norm_class_idx": 2
+            }
+        ]
+    }
+}

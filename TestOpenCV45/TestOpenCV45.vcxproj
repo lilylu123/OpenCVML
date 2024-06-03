@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\software_cv\opencv45_self_compile\opencv-build-cmake16\install\include;C:\software_cv\opencv45_self_compile\opencv-build-cmake16\install\include\opencv2;$(SolutionDir)3rdPart;$(IncludePath)</IncludePath>
+    <IncludePath>C:\software_cv\opencv45_self_compile\opencv-build-cmake16\install\include;C:\software_cv\opencv45_self_compile\opencv-build-cmake16\install\include\opencv2;$(SolutionDir)3rdPart;$(ProjectDir)src\include;$(ProjectDir)src;$(IncludePath)</IncludePath>
     <SourcePath>C:\software_cv\opencv45_self_compile\opencv-4.5.0\opencv-4.5.0\modules;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -131,10 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DeserializationOpenCVTree.cpp" />
-    <ClCompile Include="utils.cpp" />
-    <ClCompile Include="test1.cpp" />
-    <ClCompile Include="TestTree.cpp" />
+    <ClCompile Include="src\DeserializationOpenCVTree.cpp" />
+    <ClCompile Include="src\TestTree.cpp" />
+    <ClCompile Include="src\utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tree.h" />
